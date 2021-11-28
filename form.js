@@ -13,7 +13,7 @@ function test()
 
 function validate(test)
 {
-  if(((email.value)=="Admin"||(email.value)=='admin')&&(pswd.value)=='12345')
+  if(((email.value)=='admin')&&(pswd.value)=='12345')
    {
       test();
       // error.style.border="black solid 1px";
